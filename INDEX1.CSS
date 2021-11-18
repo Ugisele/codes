@@ -1,0 +1,150 @@
+. {
+    padding:0;
+   margin: 0;
+   text-align: center;
+   background: white;
+}
+.body h5{
+ text-align: center;
+
+}
+
+./*container{
+           width:3000px;
+         height:2000px;
+   position: relative;
+
+}*/
+.header{ 
+       width:2000px;
+       height:150px;
+       position: absolute;
+  
+   }
+   .logo{
+       float:left;
+       width: 35%;
+        color: chocolate;
+        font-family:Arial;
+        font-size:35px ;
+        float: left;
+        padding-left : 20px;
+    
+    }
+   
+   .banner{
+     text-align: center;
+     width: 1000px;
+     height: 80px;
+   }
+ 
+  .menu{
+     background-color: #0000ff;
+     color: white;
+     width: 1000px;
+     height: 50px;
+     position: relative 
+   
+
+       }
+.menu ul{
+         margin: 0;
+         list-style:none; 
+         position: absolute;
+       }
+
+.menu ul li{
+ font-size: 18px;
+ float:left;
+ width: 156px;
+ line-height: 50px;
+ font-family: arial;
+ text-align: center;
+ position: relative;
+}
+.menu ul li a{
+ 
+ display:block; 
+text-decoration: none;
+color: black;
+}
+
+.menu ul li a:hover{
+ background-color: white;
+}
+
+.menu ul li ul li{display: none;
+}
+.menu ul li :hover ul li{
+ display: inline-block;
+}
+
+.part1 {
+    float:left;
+    width:300px;
+    height:450px;
+    margin:5px;
+    padding:5px;
+    
+  }
+
+.part2{
+    float:left;
+    width:300px;
+    height:450px;
+    margin:5px;
+    padding:5px;  
+
+  }
+
+.part3 {
+    float:left;
+    width:300px;
+    height:450px;
+    margin:5px;
+
+  }
+
+.part1 h2{
+       background: blue;
+       color: orange;
+       padding: 5px;
+       text-align: center;
+       margin: 5px;
+
+     }
+
+.part2 h2{
+       background: blue;
+       color: orange;
+       padding:5px;
+       text-align: center;
+       margin: 5px;
+     }
+
+.part3 h2{
+       background: blue;
+       color: orange;
+       padding: 5px;
+       text-align: center;
+       margin:5px;
+     }
+
+.part1 p{
+       font-family:algerian;
+       text-align:center;
+       font-size: 14px;
+     }
+       
+
+.part2 p{
+       font-family:algerian;
+       text-align:center;
+       font-size: 14px;
+     }
+
+.part3 p{
+       font-family:algerian;
+       text-align:center;
+       font-size: 14px;
+     }

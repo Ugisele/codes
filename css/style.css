@@ -1,0 +1,44 @@
+.banner{
+    padding: 150px 0;
+    background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),url(../image/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:25px;
+}
+.banner h2{
+    color:  #fff;
+}
+.banner p{
+    color:  #fff;
+margin-bottom:0px;
+padding:20px;
+}
+.navbar-brand img{
+    width: 80px;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-light.navbar-nav .nav-link{
+    color:  #fff !important;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.gigi .col-text h2{
+ margin-bottom: 25px;
+
+}
+.gigi .col-img img{
+    width: 50%;
+    margin-bottom:25px;
+}
+.gigi{
+    
+    margin: 80px 0px;
+}
+.bg-light {
+    /* background-color: #f8f9fa!important; */
+    background-color: #198754 !important;
+}

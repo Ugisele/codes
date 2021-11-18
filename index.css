@@ -1,0 +1,58 @@
+{
+    margin: 0;
+    padding: 0;
+} 
+.main{
+    width: 100%;
+    background:linear-gradient(rgb(0, 0, 0));
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+
+}
+/*.navbar{
+   width: 1200px;
+   height:75px;
+   margin:auto;
+
+
+}*/
+
+.logo{
+    color: chocolate;
+    font-family:Arial;
+    font-size:35px ;
+    float: left;
+    padding-left : 20px;
+
+}
+.menu{
+    color: blue;
+    float:left;
+     height: 100px;
+     width: 400px;
+}
+.ul {
+
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px ;
+
+}
+.ul li a{
+    text-decoration: none;
+    color: rgb(243, 242, 239);
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.ul li a:hover{
+    color: blue;
+}
